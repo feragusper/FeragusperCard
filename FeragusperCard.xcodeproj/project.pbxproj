@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B55C64CB265887AD0063E798 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55C64CA265887AD0063E798 /* AppDelegate.swift */; };
+		B55C64CD265887AD0063E798 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55C64CC265887AD0063E798 /* SceneDelegate.swift */; };
+		B55C64CF265887AD0063E798 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55C64CE265887AD0063E798 /* ContentView.swift */; };
+		B55C64D1265887AE0063E798 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B55C64D0265887AE0063E798 /* Assets.xcassets */; };
+		B55C64D4265887AE0063E798 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B55C64D3265887AE0063E798 /* Preview Assets.xcassets */; };
+		B55C64D7265887AE0063E798 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B55C64D5265887AE0063E798 /* LaunchScreen.storyboard */; };
+		B55C64E2265887AF0063E798 /* FeragusperCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55C64E1265887AF0063E798 /* FeragusperCardTests.swift */; };
+		B55C64ED265887AF0063E798 /* FeragusperCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55C64EC265887AF0063E798 /* FeragusperCardUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B55C64DE265887AF0063E798 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B55C64BF265887AD0063E798 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B55C64C6265887AD0063E798;
+			remoteInfo = FeragusperCard;
+		};
+		B55C64E9265887AF0063E798 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B55C64BF265887AD0063E798 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B55C64C6265887AD0063E798;
+			remoteInfo = FeragusperCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B55C64C7265887AD0063E798 /* FeragusperCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeragusperCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B55C64CA265887AD0063E798 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B55C64CC265887AD0063E798 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B55C64CE265887AD0063E798 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B55C64D0265887AE0063E798 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B55C64D3265887AE0063E798 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B55C64D6265887AE0063E798 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B55C64D8265887AE0063E798 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B55C64DD265887AF0063E798 /* FeragusperCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeragusperCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B55C64E1265887AF0063E798 /* FeragusperCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeragusperCardTests.swift; sourceTree = "<group>"; };
+		B55C64E3265887AF0063E798 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B55C64E8265887AF0063E798 /* FeragusperCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeragusperCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B55C64EC265887AF0063E798 /* FeragusperCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeragusperCardUITests.swift; sourceTree = "<group>"; };
+		B55C64EE265887AF0063E798 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B55C64C4265887AD0063E798 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B55C64DA265887AF0063E798 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B55C64E5265887AF0063E798 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B55C64BE265887AD0063E798 = {
+			isa = PBXGroup;
+			children = (
+				B55C64C9265887AD0063E798 /* FeragusperCard */,
+				B55C64E0265887AF0063E798 /* FeragusperCardTests */,
+				B55C64EB265887AF0063E798 /* FeragusperCardUITests */,
+				B55C64C8265887AD0063E798 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B55C64C8265887AD0063E798 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B55C64C7265887AD0063E798 /* FeragusperCard.app */,
+				B55C64DD265887AF0063E798 /* FeragusperCardTests.xctest */,
+				B55C64E8265887AF0063E798 /* FeragusperCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B55C64C9265887AD0063E798 /* FeragusperCard */ = {
+			isa = PBXGroup;
+			children = (
+				B55C64CA265887AD0063E798 /* AppDelegate.swift */,
+				B55C64CC265887AD0063E798 /* SceneDelegate.swift */,
+				B55C64CE265887AD0063E798 /* ContentView.swift */,
+				B55C64D0265887AE0063E798 /* Assets.xcassets */,
+				B55C64D5265887AE0063E798 /* LaunchScreen.storyboard */,
+				B55C64D8265887AE0063E798 /* Info.plist */,
+				B55C64D2265887AE0063E798 /* Preview Content */,
+			);
+			path = FeragusperCard;
+			sourceTree = "<group>";
+		};
+		B55C64D2265887AE0063E798 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B55C64D3265887AE0063E798 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B55C64E0265887AF0063E798 /* FeragusperCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				B55C64E1265887AF0063E798 /* FeragusperCardTests.swift */,
+				B55C64E3265887AF0063E798 /* Info.plist */,
+			);
+			path = FeragusperCardTests;
+			sourceTree = "<group>";
+		};
+		B55C64EB265887AF0063E798 /* FeragusperCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B55C64EC265887AF0063E798 /* FeragusperCardUITests.swift */,
+				B55C64EE265887AF0063E798 /* Info.plist */,
+			);
+			path = FeragusperCardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B55C64C6265887AD0063E798 /* FeragusperCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B55C64F1265887AF0063E798 /* Build configuration list for PBXNativeTarget "FeragusperCard" */;
+			buildPhases = (
+				B55C64C3265887AD0063E798 /* Sources */,
+				B55C64C4265887AD0063E798 /* Frameworks */,
+				B55C64C5265887AD0063E798 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FeragusperCard;
+			productName = FeragusperCard;
+			productReference = B55C64C7265887AD0063E798 /* FeragusperCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B55C64DC265887AF0063E798 /* FeragusperCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B55C64F4265887AF0063E798 /* Build configuration list for PBXNativeTarget "FeragusperCardTests" */;
+			buildPhases = (
+				B55C64D9265887AF0063E798 /* Sources */,
+				B55C64DA265887AF0063E798 /* Frameworks */,
+				B55C64DB265887AF0063E798 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B55C64DF265887AF0063E798 /* PBXTargetDependency */,
+			);
+			name = FeragusperCardTests;
+			productName = FeragusperCardTests;
+			productReference = B55C64DD265887AF0063E798 /* FeragusperCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B55C64E7265887AF0063E798 /* FeragusperCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B55C64F7265887AF0063E798 /* Build configuration list for PBXNativeTarget "FeragusperCardUITests" */;
+			buildPhases = (
+				B55C64E4265887AF0063E798 /* Sources */,
+				B55C64E5265887AF0063E798 /* Frameworks */,
+				B55C64E6265887AF0063E798 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B55C64EA265887AF0063E798 /* PBXTargetDependency */,
+			);
+			name = FeragusperCardUITests;
+			productName = FeragusperCardUITests;
+			productReference = B55C64E8265887AF0063E798 /* FeragusperCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B55C64BF265887AD0063E798 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					B55C64C6265887AD0063E798 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					B55C64DC265887AF0063E798 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = B55C64C6265887AD0063E798;
+					};
+					B55C64E7265887AF0063E798 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = B55C64C6265887AD0063E798;
+					};
+				};
+			};
+			buildConfigurationList = B55C64C2265887AD0063E798 /* Build configuration list for PBXProject "FeragusperCard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B55C64BE265887AD0063E798;
+			productRefGroup = B55C64C8265887AD0063E798 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B55C64C6265887AD0063E798 /* FeragusperCard */,
+				B55C64DC265887AF0063E798 /* FeragusperCardTests */,
+				B55C64E7265887AF0063E798 /* FeragusperCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B55C64C5265887AD0063E798 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B55C64D7265887AE0063E798 /* LaunchScreen.storyboard in Resources */,
+				B55C64D4265887AE0063E798 /* Preview Assets.xcassets in Resources */,
+				B55C64D1265887AE0063E798 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B55C64DB265887AF0063E798 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B55C64E6265887AF0063E798 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B55C64C3265887AD0063E798 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B55C64CB265887AD0063E798 /* AppDelegate.swift in Sources */,
+				B55C64CD265887AD0063E798 /* SceneDelegate.swift in Sources */,
+				B55C64CF265887AD0063E798 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B55C64D9265887AF0063E798 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B55C64E2265887AF0063E798 /* FeragusperCardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B55C64E4265887AF0063E798 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B55C64ED265887AF0063E798 /* FeragusperCardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B55C64DF265887AF0063E798 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B55C64C6265887AD0063E798 /* FeragusperCard */;
+			targetProxy = B55C64DE265887AF0063E798 /* PBXContainerItemProxy */;
+		};
+		B55C64EA265887AF0063E798 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B55C64C6265887AD0063E798 /* FeragusperCard */;
+			targetProxy = B55C64E9265887AF0063E798 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B55C64D5265887AE0063E798 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B55C64D6265887AE0063E798 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B55C64EF265887AF0063E798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B55C64F0265887AF0063E798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B55C64F2265887AF0063E798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FeragusperCard/Preview Content\"";
+				DEVELOPMENT_TEAM = FZW723Y76V;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FeragusperCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.feragusper.FeragusperCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B55C64F3265887AF0063E798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FeragusperCard/Preview Content\"";
+				DEVELOPMENT_TEAM = FZW723Y76V;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FeragusperCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.feragusper.FeragusperCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B55C64F5265887AF0063E798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FZW723Y76V;
+				INFOPLIST_FILE = FeragusperCardTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.feragusper.FeragusperCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FeragusperCard.app/FeragusperCard";
+			};
+			name = Debug;
+		};
+		B55C64F6265887AF0063E798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FZW723Y76V;
+				INFOPLIST_FILE = FeragusperCardTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.feragusper.FeragusperCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FeragusperCard.app/FeragusperCard";
+			};
+			name = Release;
+		};
+		B55C64F8265887AF0063E798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FZW723Y76V;
+				INFOPLIST_FILE = FeragusperCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.feragusper.FeragusperCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FeragusperCard;
+			};
+			name = Debug;
+		};
+		B55C64F9265887AF0063E798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FZW723Y76V;
+				INFOPLIST_FILE = FeragusperCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.feragusper.FeragusperCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FeragusperCard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B55C64C2265887AD0063E798 /* Build configuration list for PBXProject "FeragusperCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B55C64EF265887AF0063E798 /* Debug */,
+				B55C64F0265887AF0063E798 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B55C64F1265887AF0063E798 /* Build configuration list for PBXNativeTarget "FeragusperCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B55C64F2265887AF0063E798 /* Debug */,
+				B55C64F3265887AF0063E798 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B55C64F4265887AF0063E798 /* Build configuration list for PBXNativeTarget "FeragusperCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B55C64F5265887AF0063E798 /* Debug */,
+				B55C64F6265887AF0063E798 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B55C64F7265887AF0063E798 /* Build configuration list for PBXNativeTarget "FeragusperCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B55C64F8265887AF0063E798 /* Debug */,
+				B55C64F9265887AF0063E798 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B55C64BF265887AD0063E798 /* Project object */;
+}
